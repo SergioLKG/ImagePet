@@ -52,7 +52,7 @@ const ImageUploader = ({ onImageUpload }: ImageUploaderProps) => {
   return (
     <div
       className={`border-2 border-dashed rounded-lg p-6 text-center cursor-pointer transition-colors ${
-        isDragging ? "border-purple-400 bg-purple-900 bg-opacity-30" : "border-purple-500"
+        isDragging ? "border-blue-400 bg-blue-900 bg-opacity-30" : "border-blue-500"
       }`}
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
@@ -60,11 +60,11 @@ const ImageUploader = ({ onImageUpload }: ImageUploaderProps) => {
       onClick={() => document.getElementById("file-input")?.click()}
     >
       <input id="file-input" type="file" accept="image/*" className="hidden" onChange={handleFileChange} />
-      <Upload className="w-8 h-8 mx-auto mb-2 text-purple-300" />
+      <Upload className="w-8 h-8 mx-auto mb-2 text-blue-300" />
       <p className="text-white font-medium">
         {isDragging ? "¡Suelta para adoptar tu mascota!" : "Haz clic o arrastra una imagen para adoptar"}
       </p>
-      <p className="text-purple-300 text-sm mt-1">Cada imagen se convertirá en una mascota virtual</p>
+      <p className="text-blue-300 text-sm mt-1">Cada imagen se convertirá en una mascota virtual</p>
     </div>
   )
 }
