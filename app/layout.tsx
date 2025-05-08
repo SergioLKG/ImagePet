@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import React from "react";
+import App from "../src/App";
 
 export const metadata: Metadata = {
   title: "ImagePet",

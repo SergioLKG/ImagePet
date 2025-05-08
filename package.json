@@ -54,7 +54,7 @@
     "react": "^19.1.0",
     "react-day-picker": "8.10.1",
     "react-dom": "^19.1.0",
-    "react-hook-form": "^7.56.2",
+    "react-hook-form": "^7.56.3",
     "react-resizable-panels": "^2.1.9",
     "recharts": "2.15.0",
     "sass": "latest",
@@ -72,7 +72,7 @@
     "zod": "^3.24.4"
   },
   "devDependencies": {
-    "@types/node": "^22.15.15",
+    "@types/node": "^22.15.17",
     "@types/react": "^19.1.3",
     "@types/react-dom": "^19.1.3",
     "postcss": "^8.5.3",
